@@ -5,7 +5,8 @@
 copy pre-commit file to [your git project]/.git/hooks folder
 
   cd [your project folder]
-  curl -sSfL -o ./git/hooks/pre-commit https://raw.githubusercontent.com/Kserghei2103/gitleaks-pre-commit-hook/main/pre-commit
+  
+  curl -sSfL -o ./git/hooks/pre-commit https://raw.githubusercontent.com/Kserghei2103/gitleaks-pre-commit-hook/main/pre-commit%20%20
 
 
 set exec permissions
@@ -20,3 +21,5 @@ Usage
 try to commit a sensetive data 
 
 Exemple:
+
+![exemple](exemple.png)
